@@ -8,3 +8,15 @@ Last Stable Gem
 On day, I discover a "onclik jalik" btn on the web. It was ugly and bad. I wrote this gem to parse it.
 It is pointless but I liked it.
 
+# How to use
+
+Install ruby (>= 2.0 if possible), and rubygems.
+Then, use ``gem install jalik``
+
+In your ruby code, try :
+```ruby
+require 'jalik'
+
+puts Jalik.parse "jalik('this[*]url[*]to[*]parse[#][;]');"
+```
+
