@@ -1,0 +1,5 @@
+module Jalik
+
+  VERSION = '1.0'
+
+end
